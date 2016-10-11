@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="base.css" />
+<style>
+.box{ width:409px; height:310px; margin:20px auto;}
+li span{ width:58px; height:26px; text-align:right; padding-top:9px; margin-right:11px;}
+li select{ margin-top:6px;}
+.name input{ width:198px; height:28px; border:1px solid #ccc; border-radius:1px; margin-top:2px; padding:0 10px; }
+.add select{ margin-right:7px;}
+.sex input{ margin-top:10px; margin-right:7px;}
+.sex label{ margin-top:10px; margin-right:14px;}
+.bd i{ line-height:35px; font-style:normal; margin:0 9px 0 3px;}
+textarea{ width:194px; height:45px; border:1px solid #ccc; margin-top:2px; border-radius:1px; padding:8px 2px 0 2px;}
+</style>
+</head>
+
+<body>
+	<div class="box">
+    	<ul class="wenzhi">
+        	<li class="clearfix name">
+            	<span class="fl">真实姓名</span>
+                <input type="text" class="fl"/>
+                <select class="fr">
+                	<option>仅自己可见</option>
+                    <option>尽自己可见</option>
+                </select>
+            </li>
+        	<li class="clearfix add">
+            	<span class="fl">所在地</span>
+                <select class="fl">
+                	<option>北京</option>
+                    <option>北京欢迎你</option>
+                </select>
+                <select class="fl">
+                	<option>朝阳区</option>
+                    <option>大兴区义庄</option>
+                </select>
+            </li>
+        	<li class="clearfix sex">
+            	<span class="fl">性别</span>
+                <input type="radio" name="sex" class="fl" id="man" checked />
+                <label class="fl" for="man">男</label>
+                <input type="radio" name="sex" class="fl" id="woman" />
+                <label class="fl" for="woman">男</label>
+            </li>
+        	<li class="clearfix sex">
+            	<span class="fl">性取向</span>
+                <input type="checkbox" name="sex" class="fl" id="qq" checked />
+                <label class="fl" for="qq">女</label>
+                <input type="checkbox" name="sex" class="fl" id="ww" checked />
+                <label class="fl" for="ww">女</label>
+                <select class="fr">
+                	<option>仅自己可见</option>
+                    <option>尽自己可见</option>
+                </select>
+            </li>
+        	<li class="clearfix">
+            	<span class="fl">感情状况</span>
+                <select class="fl">
+                	<option></option>
+                    <option>恋爱</option>
+                    <option>结婚后又离婚</option>
+                </select>
+                <select class="fr">
+                	<option>仅自己可见</option>
+                    <option>尽自己可见</option>
+                </select>
+            </li>
+        	<li class="clearfix bd">
+            	<span class="fl">生日</span>
+                <select class="fl">
+                	<option>1992</option>
+                    <option>1987</option>
+                    <option>1987</option>
+                </select>
+                <i class="fl">年</i>
+                <select class="fl">
+                	<option>11</option>
+                    <option>11</option>
+                    <option>11</option>
+                </select>
+                <i class="fl">月</i>
+                <select class="fl">
+                	<option>19</option>
+                    <option>19</option>
+                    <option>19</option>
+                </select>
+                <i class="fl">日</i>
+                <select class="fr">
+                	<option>只显月日</option>
+                    <option>尽自己可见</option>
+                </select>
+            </li>
+        	<li class="clearfix">
+            	<span class="fl">血型</span>
+                <select class="fl">
+                	<option></option>
+                    <option>A</option>
+                    <option>B</option>
+                    <option>ABC</option>
+                    <option>QWER</option>
+                </select>
+                <select class="fr">
+                	<option>仅自己可见</option>
+                    <option>尽自己可见</option>
+                </select>
+            </li>
+        	<li class="clearfix">
+            	<span class="fl">真实姓名</span>
+                <textarea placeholder="请输入个人简介"></textarea>
+            </li>
+        	
+        </ul>
+    </div>
+</body>
+</html>
